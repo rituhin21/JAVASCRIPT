@@ -68,3 +68,10 @@ console.log("Expressions & Operators");
 // var age = 15;
 // var result = age >= 18 ? "You are Eligible to Drive" : "you are not Eligible to Drive";
 // console.log(result);
+
+// Q: below
+// console.log(2 < 12 < 5);
+// console.log("20" + 10 + 10);
+// console.log(10 +"20" +  10);
+
+// control statement 
