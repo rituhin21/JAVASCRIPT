@@ -81,9 +81,58 @@
 
 // Question: what is the purpose of the NaN value in JavaScript?
 // NaN stands for "Not a Number" and is returned when a mathematical operation doesn't yield a valid number. Also, to check whether a value is number of not we can use isNaN() function.
-console.log(isNaN("Rijuan"));
+// console.log(isNaN("Rijuan"));
 // true 
-console.log(isNaN(parseInt("Rijuan")));
+// console.log(isNaN(parseInt("Rijuan")));
 // false 
-console.log(isNaN(parseInt("123")));
+// console.log(isNaN(parseInt("123")));
 // true 
+
+//? NaN === NaN, why is it false?
+// if(5 === 5){
+//     console.log("Both are equal");
+// }else{
+//     console.log("Not equal");
+// }
+
+// if(NaN === NaN){
+//     console.log("Both are equal");
+// }else{
+//     console.log("Not equal");
+// }
+
+//* concatanation in JavaScript
+// concatanation is system which add two data types togather
+// var str = "Hello " + "World!"
+// console.log(str);
+
+// *Type coercioni is the automatic conversion of "values" from one data type to another
+// It is a fundamental part of JavaScript and can be used to make code more readable and efficient
+// There are two types of coertion in JavaScript: implicit and explicit. Implicit coercion happens automatically, while explicit coercion is done manually by the programmer. 
+// ! It's worth noting that type coercion can lean to unexpected results, so it's essential to be aware of how JavaScript handles these situations  
+
+// console.log("10" - 5);
+// if number string subtract a number the output will be a number 
+
+// console.log(20 - "10");
+// if we subtract a number string form a number then also the output will a number 
+
+// console.log("10" + 5);
+// if any string add with a number, the will convert into string and concat it. and the output result will be a string 
+
+// console.log("Rijuan" + 10);
+// if the string and number add with "+" then it will give the output of string which converted the number into a string and concat it 
+
+// Some tricky questions
+// console.log(10 + "20");
+// console.log(10 - "20");
+// console.log("" +  "");
+// console.log(0 + " ");
+// console.log("Rijuan" - "Tuhin");
+// console.log(true + true);
+// console.log(true + false);
+// console.log(false + true);
+// console.log(false - true);
+// console.log(true - false);
+// console.log(false + false);
+
